@@ -23,13 +23,7 @@ Linkedin: https://www.linkedin.com/in/carlosspalacios/
 
 ### Diagrama CD/CI de un feacture
 
-```
-flowchart LR
-    A[clone] -->|git| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-```
+![Esta es una imagen de ejemplo](./assets/diagrams01cdci.jpeg)
 
 
 ## Configuracion
