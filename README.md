@@ -10,6 +10,19 @@ El presente proyecto esta realizado para abordar diferentes retos en los siguien
 
 a continuacion mostraremos algunas referencias a la documentacion
 
+## CD / CI
+
+En este proyecto tenemos varios restos muy importantes relacionados al CD / CI
+por lo cual estaremos siendo asesorados por
+
+![Esta es una imagen de ejemplo](./assets/carlos_palacios.jpeg)
+
+Carlos P. Santiado F.
+
+Linkedin: https://www.linkedin.com/in/carlosspalacios/
+
+### Diagrama CD/CI de un feacture
+
 
 ## Configuracion
 
