@@ -10,13 +10,45 @@ El presente proyecto esta realizado para abordar diferentes retos en los siguien
 
 a continuacion mostraremos algunas referencias a la documentacion
 
-## Getting Started Project
 
-## Configuration ALIAS
+## Configuracion
+
+Los creadores del repositorio estaran agregando tecnicas de configuracion que haran del desarrollo mucho mas amigable las vamos a ir presentando cada una de ellas
+
+### Alias
+
+Estaremos usando alias de git para hacer el flujo de desarrollo mas efectivo y rapido
+
+para configurarlos debemos ejecutar los siguientes comandos:
 
 ```
-alias.co = checkout
-alias.ci = commit
-alias.st = status
-alias.br = branch
+$ cat .git/config
 ```
+
+esto abrira una pantalla como la siguiente vista:
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:CarlosArgelio/project-community-02.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+```
+
+Al final agregaremos lo siguiente para manejar los mismos alias en el proyecto
+
+```
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+```
+
+Si tienes dudas acerca de los alias visita ==> https://git-scm.com/book/es/v2/Fundamentos-de-Git-Alias-de-Git
