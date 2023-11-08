@@ -27,10 +27,18 @@ Here is a simple flow chart:
 
 ```mermaid
 flowchart LR
-    A[clone] -->|git| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
+    A(clone) -->|git clone repository| B(git co develop)
+    B --> C(Create branch feacture)
+    C --> D(git co -b feacture/some-name)
+    D --> E(execute process project)
+
+
+    E --> F{Husky pre-commit}
+    F -->|Error| G[fix error]
+    F -->|!Error| H[success commit]
+
+
+    H -->|git push| i(git push feacture)
 ```
 
 ![Esta es una imagen de ejemplo](./assets/diagrams01cdci.jpeg)
